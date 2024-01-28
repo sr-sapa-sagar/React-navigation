@@ -1,5 +1,15 @@
-.App {
-  text-align: center;
+.dropdown-x-menu{
+  display:none;
+  position: absolute;
+  background-color: #f8f9fa;
+width: 250px;
+}
+.dropdown-x{
+  position: relative;
+  }
+.dropdown-x:hover .dropdown-x-menu{
+  display: block;
+
 }
 
 .App-logo {
